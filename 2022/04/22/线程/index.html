@@ -17,20 +17,20 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>Hello World | Hexo</title>
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <title>Hexo</title>
+  <meta name="description" content="线程线程一、创建线程： &#96;&#96;&#96;&#x2F;&#x2F;创建线程对象Thread t &#x3D; new Thread(){ public void run()&amp;#123;     &#x2F;&#x2F;线程要执行的代码 &amp;#125;  }&#x2F;&#x2F;启动线程t.start(); 12345678910111213142. &#96;&#96;&#96;   Runnable runnable &#x3D; new Runnable()&amp;#123;   	public void run">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://example.com/2022/04/20/hello-world/index.html">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/2022/04/22/%E7%BA%BF%E7%A8%8B/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="线程线程一、创建线程： &#96;&#96;&#96;&#x2F;&#x2F;创建线程对象Thread t &#x3D; new Thread(){ public void run()&amp;#123;     &#x2F;&#x2F;线程要执行的代码 &amp;#125;  }&#x2F;&#x2F;启动线程t.start(); 12345678910111213142. &#96;&#96;&#96;   Runnable runnable &#x3D; new Runnable()&amp;#123;   	public void run">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2022-04-20T11:47:03.278Z">
-<meta property="article:modified_time" content="2022-04-20T11:46:07.448Z">
+<meta property="article:published_time" content="2022-04-22T05:36:33.818Z">
+<meta property="article:modified_time" content="2022-04-22T05:35:50.138Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   <!-- Canonical links -->
-  <link rel="canonical" href="http://example.com/2022/04/20/hello-world/index.html">
+  <link rel="canonical" href="http://example.com/2022/04/22/%E7%BA%BF%E7%A8%8B/index.html">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -311,23 +311,15 @@
   
 <main class="main" role="main">
   <div class="content">
-  <article id="post-hello-world" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <article id="post-线程" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
     
     <div class="article-header">
-      
-        
-  
-    <h1 class="article-title" itemprop="name">
-      Hello World
-    </h1>
-  
-
       
       <div class="article-meta">
         <span class="article-date">
     <i class="icon icon-calendar-check"></i>
-	<a href="/2022/04/20/hello-world/" class="article-date">
-	  <time datetime="2022-04-20T11:47:03.278Z" itemprop="datePublished">2022-04-20</time>
+	<a href="/2022/04/22/%E7%BA%BF%E7%A8%8B/" class="article-date">
+	  <time datetime="2022-04-22T05:36:33.818Z" itemprop="datePublished">2022-04-22</time>
 	</a>
 </span>
         
@@ -335,25 +327,125 @@
 
         
 
-        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2022/04/20/hello-world/#comments" class="article-comment-link">Comments</a></span>
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2022/04/22/%E7%BA%BF%E7%A8%8B/#comments" class="article-comment-link">Comments</a></span>
         
       </div>
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+        <h1 id="线程"><a href="#线程" class="headerlink" title="线程"></a>线程</h1><h2 id="线程-1"><a href="#线程-1" class="headerlink" title="线程"></a>线程</h2><h3 id="一、创建线程："><a href="#一、创建线程：" class="headerlink" title="一、创建线程："></a>一、创建线程：</h3><ol>
+<li><p>```<br>//创建线程对象<br>Thread t = new Thread(){</p>
+<pre><code>public void run()&#123;
+    //线程要执行的代码
+&#125;
+</code></pre>
+<p>}<br>//启动线程<br>t.start();</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">2. ```</span><br><span class="line">   Runnable runnable = new Runnable()&#123;</span><br><span class="line">   	public void run()&#123;</span><br><span class="line">   		//线程执行的代码</span><br><span class="line">   	&#125;</span><br><span class="line">   &#125;</span><br><span class="line">   Thread t = new Thread(runnable);</span><br><span class="line">   t.start();</span><br><span class="line">   </span><br><span class="line">   lambda写法：</span><br><span class="line">   Runnable r = ()-&gt;&#123;</span><br><span class="line">   	//线程执行的代码</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure></li>
+<li><p>future方法</p>
+</li>
+<li><p>线程上下文切换：</p>
+<ol>
+<li>线程cpu时间片用完</li>
+<li>垃圾回收</li>
+<li>有更高优先级的线程需要运行</li>
+<li>线程自己调用了sleep、yield、wait、join、park、synchronized、lock等方法</li>
+</ol>
+</li>
+<li><p>方法：</p>
+<ul>
+<li><p>start：启动一个新县城，运行run，让线程进入就绪</p>
+</li>
+<li><p>join：等待线程结束，等待哪个线程，用哪个线程调用，可以加参数，设置最长等待时间</p>
+</li>
+<li><p>getName、getPriority、getState、isAlive</p>
+</li>
+<li><p>sleep：让当前进程休眠n毫秒，让出cpu时间片</p>
+<ul>
+<li>与wait的不同：<ul>
+<li>声名位置不同：Thread类中声名sleep，Object类中声名wait</li>
+<li>调用要求不同：sleep可以在任何需要场景调用，wait必须使用在同步代码块或同步方法中</li>
+<li>关于是否释放同步监视器：如果两个方法都使用在同步代码块或同步方法中，sleep不会释放锁，wait会释放锁</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>interrupt ：通知目的线程主线程试图打断，是否打断由本线程决定，使用打断标记isInterrupted,可以打断睡眠线程、正常线程</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">boolean in = Thread.currentThread().isInterrupted();</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+<li><p>线程池：</p>
+<ol>
+<li><p>思路：提前创建好多个线程</p>
+</li>
+<li><p>好处：提高响应速度、降低资源消耗、便于线程管理</p>
+</li>
+<li><p>分类：</p>
+<ol>
+<li>一池N线程：Executors.newFixedThreadPool(int)</li>
+<li>一池一线程：Executors.newSingleThreadExecutor()</li>
+<li>可扩容：Executors.newCachedThreadPool()</li>
+</ol>
+</li>
+<li><p>底层：都是通过new ThreadPoolExecutor</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">public ThreadPoolExecutor(int corePoolSize,</span><br><span class="line">                              int maximumPoolSize,</span><br><span class="line">                              long keepAliveTime,</span><br><span class="line">                              TimeUnit unit,</span><br><span class="line">                              BlockingQueue&lt;Runnable&gt; workQueue) &#123;</span><br><span class="line">        this(corePoolSize, maximumPoolSize, keepAliveTime, unit, workQueue,</span><br><span class="line">             Executors.defaultThreadFactory(), defaultHandler);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<ol>
+<li>corePoolSize：常驻线程数量</li>
+<li>maximumPoolSize：最大线程数量</li>
+<li>keepAliveTime：线程存活时间</li>
+<li>TimeUnit unit：单位</li>
+<li>BlockingQueue<Runnable> workQueue：阻塞队列</li>
+<li>threadFactory：线程工厂，创建线程</li>
+<li>RejectedExecutionHandler handler：拒绝策略<ol>
+<li>默认策略：直接抛出异常</li>
+<li>调用者模式：退回到调用者</li>
+<li>抛弃队列中等待醉酒的任务，把当前任务加入队列中尝试再次提交当前任务</li>
+<li>不做任何处理</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p>注意：执行execute方法时才创建线程，实际中不适用Executors去创建，而是通过ThreadPoolExecutor方式：</p>
+<ol>
+<li>因为可能Exectors提供的方式允许最大请求队列长度为Integer.MAV_VALUE,可能会堆积大量请求，从而导致OOM</li>
+</ol>
+</li>
+<li><p>创建线程方式：</p>
+<ol>
+<li></li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ExecutorService service = Executors.newFixedThreadPool(10)</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<ol start="2">
+<li><p>自定义方式</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">ThreadPoolExecutor threadPool = new ThreadPoolExecutor(</span><br><span class="line">                2,</span><br><span class="line">                5,</span><br><span class="line">                2L,</span><br><span class="line">                TimeUnit.SECONDS,</span><br><span class="line">                new ArrayBlockingQueue&lt;&gt;(3),</span><br><span class="line">                Executors.defaultThreadFactory(),</span><br><span class="line">                new ThreadPoolExecutor.AbortPolicy()</span><br><span class="line">        );</span><br></pre></td></tr></table></figure></li>
+</ol>
+</li>
+<li></li>
+</ol>
+</li>
+<li><p>同步机制解决线程安全问题方法：</p>
+<ul>
+<li>同步代码块,synchronized</li>
+<li>同步方法，将方法声明为同步，非静态方法的同步监视器：this，静态的同步方法，当前类本身</li>
+<li>Lock锁</li>
+</ul>
+</li>
+<li><p>线程间通信</p>
+<pre><code>1. 步骤：
+    1. 创建资源类，在资源类创建属性和操作方法
+    2. 在资源类中操作方法
+    3. 创建多个线程调用操作方法
+</code></pre>
+</li>
+<li><p>集合的线程安全问题：同时对ArrayList进行读取操作</p>
+<pre><code>     1. 解决方案
+      1. Vector
+      2. Collections
+      3. CopyOnWriteArraylist
+</code></pre>
+</li>
+</ol>
 
       
     </div>
@@ -363,7 +455,7 @@
     
     <li class="post-copyright-link hidden-xs">
       <strong>本文链接：</strong>
-      <a href="http://example.com/2022/04/20/hello-world/" title="Hello World" target="_blank" rel="external">http://example.com/2022/04/20/hello-world/</a>
+      <a href="http://example.com/2022/04/22/%E7%BA%BF%E7%A8%8B/" title="" target="_blank" rel="external">http://example.com/2022/04/22/线程/</a>
     </li>
     
     <li class="post-copyright-license">
@@ -410,9 +502,13 @@
   <ul class="pager pull-left">
     
     <li class="prev">
-      <a href="/2022/04/21/%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0/" title="(no title)"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;Newer</span></a>
+      <a href="/2022/04/22/git%E6%93%8D%E4%BD%9C/" title="(no title)"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;Newer</span></a>
     </li>
     
+    
+    <li class="next">
+      <a href="/2022/04/21/%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0/" title="(no title)"><span>Older&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+    </li>
     
     
   </ul>
