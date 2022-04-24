@@ -2,7 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/2022/04/22/%E7%BA%BF%E7%A8%8B/</loc>
+    <loc>http://example.com/2022/04/22/%E9%9A%8F%E8%AE%B0/JavaEE/</loc>
+    
+    <lastmod>2022-04-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2022/04/22/%E9%9A%8F%E8%AE%B0/%E7%BA%BF%E7%A8%8B/</loc>
     
     <lastmod>2022-04-22</lastmod>
     
@@ -11,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/04/22/git%E6%93%8D%E4%BD%9C/</loc>
+    <loc>http://example.com/2022/04/22/%E9%9A%8F%E8%AE%B0/git%E6%93%8D%E4%BD%9C/</loc>
     
     <lastmod>2022-04-21</lastmod>
     
@@ -29,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/04/21/%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0/</loc>
+    <loc>http://example.com/2022/04/21/%E9%9A%8F%E8%AE%B0/%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0/</loc>
     
     <lastmod>2022-04-15</lastmod>
     
@@ -49,7 +58,7 @@
 
   <url>
     <loc>http://example.com/</loc>
-    <lastmod>2022-04-22</lastmod>
+    <lastmod>2022-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>

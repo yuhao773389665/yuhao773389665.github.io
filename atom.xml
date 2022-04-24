@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-04-21T07:15:30.361Z</updated>
+  <updated>2022-04-23T13:43:47.760Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -18,8 +18,28 @@
   
   <entry>
     <title></title>
-    <link href="http://example.com/2022/04/22/git%E6%93%8D%E4%BD%9C/"/>
-    <id>http://example.com/2022/04/22/git%E6%93%8D%E4%BD%9C/</id>
+    <link href="http://example.com/2022/04/22/%E9%9A%8F%E8%AE%B0/JavaEE/"/>
+    <id>http://example.com/2022/04/22/%E9%9A%8F%E8%AE%B0/JavaEE/</id>
+    <published>2022-04-22T06:55:29.458Z</published>
+    <updated>2022-04-23T13:43:47.760Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="JavaEE"><a href="#JavaEE" class="headerlink" title="JavaEE"></a>JavaEE</h1><h3 id="一、数组"><a href="#一、数组" class="headerlink" title="一、数组"></a>一、数组</h3><pre><code>1. </code></pre><h3 id="二、工具类"><a href="#二、工具类" class="headerlink" title="二、工具类"></a>二、工具类</h3><ol><li><p>Arrays</p><ol><li>static void sort(type[] a)</li><li>static String toString(type[] a)</li><li>static type copyOf(type[] a,int length)</li><li>static type copyOfRange(type[] a,int start,int end)</li><li>static int binarySearch(type[] a ,type v)</li><li>static void fill(type[] a,type v)</li><li>static boolean equals(type[] a,type[] b)</li></ol></li><li><p>Math</p><ol><li>random：返回0-n之间的随机数，(int)(Math.random() * n)</li></ol></li><li><p>Collections</p></li></ol><h3 id="三、接口"><a href="#三、接口" class="headerlink" title="三、接口"></a>三、接口</h3><ol><li><p>Collection接口：</p><ol><li><p>List接口：可存放重复元素，元素存取有序</p><ol><li>ArrayList</li><li>LinkedList<ol><li>方法：addFirst(e),addLast(e),getFirst(,getLast(),removeFirst</li></ol></li><li>Vector</li><li>List方法：get(index),remove(int index),set(int index,element)</li></ol></li><li><p>Set接口：不可以存放重复元素，存取无序</p><ol><li>HashSet</li><li>TreeSet</li></ol></li><li><p>共用方法：add,clear,contains,equals,isEmpty,remove</p></li></ol></li><li><p>Map接口</p><ol><li>HashMap&lt;&gt;</li></ol></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;JavaEE&quot;&gt;&lt;a href=&quot;#JavaEE&quot; class=&quot;headerlink&quot; title=&quot;JavaEE&quot;&gt;&lt;/a&gt;JavaEE&lt;/h1&gt;&lt;h3 id=&quot;一、数组&quot;&gt;&lt;a href=&quot;#一、数组&quot; class=&quot;headerlink&quot; title=&quot;一</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2022/04/22/%E9%9A%8F%E8%AE%B0/git%E6%93%8D%E4%BD%9C/"/>
+    <id>http://example.com/2022/04/22/%E9%9A%8F%E8%AE%B0/git%E6%93%8D%E4%BD%9C/</id>
     <published>2022-04-22T05:37:53.134Z</published>
     <updated>2022-04-21T07:15:30.361Z</updated>
     
@@ -43,8 +63,8 @@
   
   <entry>
     <title></title>
-    <link href="http://example.com/2022/04/22/%E7%BA%BF%E7%A8%8B/"/>
-    <id>http://example.com/2022/04/22/%E7%BA%BF%E7%A8%8B/</id>
+    <link href="http://example.com/2022/04/22/%E9%9A%8F%E8%AE%B0/%E7%BA%BF%E7%A8%8B/"/>
+    <id>http://example.com/2022/04/22/%E9%9A%8F%E8%AE%B0/%E7%BA%BF%E7%A8%8B/</id>
     <published>2022-04-22T05:36:33.818Z</published>
     <updated>2022-04-22T05:35:50.138Z</updated>
     
@@ -63,8 +83,8 @@
   
   <entry>
     <title></title>
-    <link href="http://example.com/2022/04/21/%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0/"/>
-    <id>http://example.com/2022/04/21/%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0/</id>
+    <link href="http://example.com/2022/04/21/%E9%9A%8F%E8%AE%B0/%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0/"/>
+    <id>http://example.com/2022/04/21/%E9%9A%8F%E8%AE%B0/%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0/</id>
     <published>2022-04-21T07:23:17.701Z</published>
     <updated>2022-04-15T06:04:03.518Z</updated>
     
